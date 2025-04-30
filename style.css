@@ -1,0 +1,127 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    -webkit-font-smoothing: antialiased;
+
+}
+/*table config*/
+#table-1 th,
+#table-1 td,
+#table-1 tr{
+   padding: 20px 40px 20px;
+   border: 1px solid gray ; 
+  
+}
+
+table tr,
+table td{
+    color: rgb(71, 71, 71);
+}
+caption {
+    caption-side: bottom;
+    margin: 14px 0px;
+    font-size: 14px;
+    font-style: italic;
+ 
+  }
+
+#table-1{
+    border-radius: 50px;
+    width: fit-content;
+    border-radius: 30px;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+   background-color: rgb(255, 255, 255)
+ 
+}
+
+.first-col{
+    background-color: rgb(47, 54, 255);
+    color: white;
+   
+}
+.first-row{
+    color: blue;
+}
+#room-col{
+    padding: 30px 33px 30px;
+}
+#time-col{
+    padding: 30px 100px 30px;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+/*config second table*/
+#table-2 th,
+#table-2 td,
+#table-2 tr{
+    border: 1px solid gray;
+}
+#table-2 th
+{
+   padding: 20px 30px 20px; 
+}
+#table-2 td
+{
+   padding: 20px 30px 20px; 
+}
+.fila-1{
+    padding: 10px 30px 50px
+}
+.columna1-tabla2{
+    background-color: cadetblue;
+}
+#table-2 tr:nth-child(odd) td{
+    background-color: rgb(185, 246, 248);
+}
+#table-2 tr:nth-child(even) td{
+    background-color: rgb(155, 250, 204);
+}
+#celda-vacia{
+    border-left: none;
+    border-top: none !important;
+
+}
+
+
+#table-3 {
+    width: 50%;
+    border-collapse: collapse; 
+    border: 1px solid #256cbd; 
+}
+
+#table-3 td {
+    text-align: center;  
+    font-weight: bold;
+    border: 1px solid #256cbd; 
+    padding: 10px;
+}
+
+
+.Talla {
+ 
+    width: 10px; 
+    height: 10px; 
+    background-color: #256cbd;
+    color: white; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    font-size: 16px;
+    margin: 0; 
+    min-width: 130px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
